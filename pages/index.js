@@ -25,7 +25,6 @@ export default function Home({ dailyData, cases }) {
   const bkkTodayCases = todayCases.filter((data) =>
     data.Province.includes('กรุงเทพ')
   );
-  console.log(nonthaburiTodayCases);
 
   const confirmed = Number.parseInt(Confirmed, 10);
   const newConfirmed = Number.parseInt(NewConfirmed, 10);
